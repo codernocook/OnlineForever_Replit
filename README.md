@@ -17,7 +17,7 @@ If you put it in another folder just change the `./jsForever.js` to your file pa
 3. Done!
 
 # Why it need the `kill 1` command?
-Replit have a limitation, if it reached or over the limit. Your project won't work, but it's still online.
+Replit have a limitation, if it reached or over the limit. Your project **may** not work (like **Discord bot**), but it's still online.
 
 # Monitor
 Some good monitor services you should try:

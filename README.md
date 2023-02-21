@@ -1,11 +1,11 @@
 # Replit_JsForever
-A Javascript file that make Replit online forever with kill 1 command.
+A Javascript file that make Replit online forever with `kill 1` command.
 
 You **also need a monitor** for this. You can check the **`#Monitor`** below.
 
 
 # How to use?
-1. Drag this file to your Replit project.
+1. Drag `jsForever.js` file to your Replit project.
 2. Add this
   ```javascript
   require("./jsForever.js")();

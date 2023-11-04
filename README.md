@@ -19,6 +19,8 @@ If you put it in another folder just change the `./jsForever.js` to your file pa
 3. Add enviroment variable named "host_url_jsForever", and set the value to "https://{yourReplitProjectName}.{yourReplitUserName}.repl.co/"
 > [!NOTE]  
 > {yourReplitProjectName}: Your replit project name, for example: "https://replit.com/@user/ProjectName", your project name is "ProjectName" in the url, and after the "@user"
+
+> [!NOTE]
 > {yourReplitUserName}: Your replit username on your account, for example: "https://replit.com/@user/ProjectName", your username is the "@user", remember to remove the "@"
 
 4. Done!

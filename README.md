@@ -14,6 +14,10 @@ If you put it in another folder just change the `./jsForever.js` to your file pa
 
 3. Done!
 
+# Minimized
+Check out `jsForever_nonMinimized.js`, for the non minimized version.
+`jsForever.js` always minimized.
+
 # Why it need the `kill 1` command?
 Replit have a limitation, if it reached or over the limit. Your project **may** not work (like **Discord bot**), but it's still online.
 

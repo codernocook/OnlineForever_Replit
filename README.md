@@ -2,6 +2,10 @@
 A Javascript file that make Replit online forever with `kill 1` command.
 This script does not need monitor, but you can monitor to make sure it's still alive, check the `#Monitor` below
 
+# UPDATE
+> [!NOTE]  
+> New update does not need monitor, you can use monitor to track if it's still alive.
+
 # How to use?
 1. Drag `jsForever.js` file to your Replit project.
 2. Add this

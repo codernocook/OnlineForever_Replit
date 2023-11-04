@@ -1,16 +1,22 @@
 module.exports = function() {
   const express = require("express");
+  const _fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
   const { exec } = require("child_process");
 
   const app = express();
 
   app.listen(3000, () => { })
   let counter = false;
+  _fetch(process.env["host_url_jsForever"] || "localhost")
 
   app.use((req, res, next) => {
     res.status(200).json({
       "online": true
     })
+
+    setTimeout(() => {
+      _fetch(process.env["host_url_jsForever"] || "localhost")
+    }, 60000);
 
     req.on("close", function() {
       // the user fetch the page
